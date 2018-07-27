@@ -1,0 +1,17 @@
+body {
+	height : 2000px;
+}
+#base {
+	width: 200px;
+	height: 156px;
+	background: aqua;
+	position: fixed;
+	top: 95px;
+}
+#mask {
+	width: 200px;
+	height: 0px;
+	background: lightgreen;
+	position: static;
+	z-index: -1;
+}
